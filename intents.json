@@ -1,0 +1,305 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hii",
+          "Hey",
+          "Heya",
+          "Hiya",
+          "Hello"
+        ],
+        "responses": [
+          "Hi 👋 there, what can I do for you?",
+          "Hi 👋 there, how can I help?",
+          "Namaste 🙏, IO at your service.",
+          "Hello, IO at your service."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you soon", "Goodbye"],
+        "responses": [
+          "See you soon!",
+          "Bye! Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "What's red and moves up and down?\nA tomato in an elevator 😂",
+          "What do you call a boomerang that doesn't come back? A stick! 😂"
+        ]
+      },
+      {
+        "tag": "Anything",
+        "patterns": [
+          "Tell me something."
+        ],
+        "responses": [
+          "Hear about the new restaurant called KARMA ?\nThere's no menu, you get what you deserve."
+        ]
+      },
+      {
+        "tag": "Name",
+        "patterns": [
+          "What is your name?",
+          "Your name"
+        ],
+        "responses": [
+          "My name is IO."
+        ]
+      },
+      {
+        "tag": "Address",
+        "patterns": [
+          "Where do you live?"
+        ],
+        "responses": [
+          "I live in the storage system of Mr. Praveen Kumar's personal computer."
+        ]
+      },
+      {
+        "tag": "IO's work",
+        "patterns": [
+          "What do you do?"
+        ],
+        "responses": [
+          "I am just a bot and I can interact with you with help of texts."
+        ]
+      },
+      {
+        "tag": "Creator",
+        "patterns": [
+          "Who created you?",
+          "Who made you?",
+          "Who is you creator?",
+          "Do you know about your creator?"
+        ],
+        "responses": [
+          "My creator's name is Mr. Praveen Kumar.",
+          "I was created by Mr. Praveen Kumar"
+        ]
+      },
+      {
+        "tag": "Io's deatils",
+        "patterns": [
+          "Tell me about yourself.",
+          "What are you.",
+          "Who are you.",
+          "What do you know about yourself."
+        ],
+        "responses": [
+          "My name is IO and I am 1 month old.\nI live inside the storage system of Mr. Praveen Kumar's personal computer.\nI am just a normal bot who can answer most of your queries.\n:)"
+        ]
+      },
+      {
+        "tag": "Song",
+        "patterns": [
+          "Sing me a song",
+          "Sing a song for me",
+          "sing a song"
+        ],
+        "responses": [
+          "Pardon me, I cannot sing because I can only use text to communicate."
+        ]
+      },
+      {
+        "tag": "Cold",
+        "patterns": [
+          "Runny nose Sneezing Cough Sore throat Nasal Congestion"
+        ],
+        "responses": [
+          "You have cold, get to a doctor."
+        ]
+      },
+      {
+        "tag": "Allergy",
+        "patterns": [
+          "red itchy watery eyes wheezing coughing red and itchy rash"
+        ],
+        "responses": [
+          "You have Allergy, get to a doctor."
+        ]
+      },
+      {
+        "tag": "Sachin Tendulkar",
+        "patterns": [
+          "Who is Sachin Tendulkar",
+          "Tell me about Sachin Tendulkar",
+          "About Sachin Tendulkar",
+          "Sachin Tendulkar",
+          "Do you know about Sachin Tendulkar?"
+        ],
+        "responses": [
+          "Sachin Tendulkar, in full Sachin Ramesh Tendulkar, (born April 24, 1973, Bombay [Mumbai], India),\nIndian professional cricket player, considered by many to be one of the greatest batsmen of all time.\nIn 2012 he became the first cricketer to score 100 centuries (100 runs in a single innings) in international play."
+        ]
+      },
+      {
+        "tag": "Mahendra Singh Dhoni",
+        "patterns": [
+          "Do you know about Mahendra Singh Dhoni?",
+          "Who is MS Dhoni",
+          "Tell me about MS Dhoni",
+          "About MS Dhoni",
+          "Do you know about MS Dhoni?",
+          "About Dhoni",
+          "Who is Dhoni",
+          "MS Dhoni"
+        ],
+        "responses": [
+          "Mahendra Singh Dhoni, commonly known as MS Dhoni and Mahi (born July 7, 1981, Ranchi, Bihar [now Jharkhand] state, India), is an Indian cricketer player and was a former captain of the Indian cricket team.\nDhoni made his international debut in 2004.\nHis talent with the bat came to the fore in an innings of 148 runs against Pakistan in his fifth international match."
+        ]
+      },
+      {
+        "tag": "Elon Musk",
+        "patterns": [
+          "Do you know about Elon Musk?",
+          "Who is Elon Musk",
+          "Tell me about Elon Musk",
+          "About Elon Musk",
+          "Elon Musk"
+        ],
+        "responses": [
+          "Elon Reeve Musk FRS (born June 28, 1971 at Pretoria, South Africa's administrative capital) is a business magnate and investor.\nHe is the founder, CEO and chief engineer of SpaceX, CEO and product architect of Tesla, owner and CEO of Twitter. He is the founder of The Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation."
+        ]
+      },
+      {
+        "tag": "Jeff Bezos",
+        "patterns": [
+          "Do you know about Jeff Bezos?",
+          "Who is Jeff Bezos",
+          "Tell me about Jeff Bezos",
+          "About Jeff Bezos",
+          "Jeff Bezos",
+          "Jeffrey Bezos",
+          "Jeffrey Preston Bezos"
+        ],
+        "responses": [
+          "Jeffrey Preston Bezos (born January 12, 1964) is an American entrepreneur, media proprietor, investor, and commercial astronaut.\nHe is the founder, executive chairman, and former president and CEO of Amazon.\nWith a net worth of US$109.3 billion as of January 2023."
+        ]
+      },
+      {
+        "tag": "Mark Zuckerberg",
+        "patterns": [
+          "Do you know about Mark Zuckerberg?",
+          "Who is Mark Elliot Zuckerberg",
+          "Tell me about Mark Zuckerberg",
+          "About Mark Zuckerberg",
+          "Mark Zuckerberg",
+          "Zuckerberg"
+        ],
+        "responses": [
+          "Mark Elliot Zuckerberg (born May 14, 1984) is an American business magnate, internet entrepreneur, and philanthropist.\nHe is known for co-founding the social media website Facebook.\nZuckerberg attended Harvard University, where he launched Facebook in February 2004 with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.\nIn 2007, at age 23, he became the world's youngest self-made billionaire."
+        ]
+      },
+      {
+        "tag": "Lord Rama",
+        "patterns": [
+          "Do you know about Lord Rama?",
+          "Do you know about Rama?",
+          "Do you know about Ram?",
+          "Who is Lord Rama",
+          "Tell me about Lord Rama",
+          "About Lord Rama",
+          "Lord Rama",
+          "Rama",
+          "Ram",
+          "Who is Lord Ram",
+          "Tell me about Lord Ram",
+          "About Lord Ram",
+          "Who is Ram",
+          "Tell me about Ram",
+          "About Ram"
+        ],
+        "responses": [
+          "Rama is a major deity in Hinduism.\nHe is the seventh and one of the most popular avatars of Vishnu.\nRama is said to have been born to Kaushalya and Dasharatha in Ayodhya, the capital of the Kingdom of Kosala.\nHis siblings included Lakshmana, Bharata, and Shatrughna. He married Sita.\n"
+        ]
+      },
+      {
+        "tag": "Shivji",
+        "patterns": [
+          "Do you know about Lord Shiva?",
+          "Do you know about Shiviji?",
+          "Do you know about Maha dev?",
+          "Do you know about Mahadev?",
+          "Who is Shiva",
+          "Tell me about Shiva",
+          "About Shiva",
+          "Shiva",
+          "Shivji",
+          "Who is Maha dev",
+          "Tell me about Maha dev",
+          "About Maha dev",
+          "Maha dev",
+          "Shiv"
+        ],
+        "responses": [
+          "Shiva also known as Mahadeva, is one of the principal deities of Hinduism.\nHe is the Supreme Being in Shaivism, one of the major traditions within Hinduism.\nShiva is known as 'The Destroyer' within the Trimurti, the Hindu trinity which also includes Brahma and Vishnu.\nIn the Shaivite tradition, Shiva is the Supreme Lord who creates, protects and transforms the universe.\nThe iconographical attributes of Shiva are the serpent around his neck, the adorning crescent moon, the holy river Ganga flowing from his matted hair, the third eye on his forehead (the eye that turns everything in front of it into ashes when opened), the trishula or trident as his weapon, and the damaru drum.\nHe is usually worshipped in the aniconic form of lingam."
+        ]
+      },
+      {
+        "tag": "Lord Krishna",
+        "patterns": [
+          "Do you know about Krishan?",
+          "Who is Lord Krishna",
+          "Tell me about Lord Krishna",
+          "About Lord Krishna",
+          "Lord Krishna",
+          "Krishna",
+          "Who is Krishna",
+          "Tell me about Krishna",
+          "About Krishna"
+        ],
+        "responses": [
+          "Krishna is a major deity in Hinduism.\nHe is worshipped as the eighth avatar of Vishnu and also as the Supreme god in his own right.\nHe is the god of protection, compassion, tenderness, and love, and is one of the most popular and widely revered among Indian divinities.\nKrishna's birthday is celebrated every year by Hindus on Krishna Janmashtami according to the lunisolar Hindu calendar, which falls in late August or early September of the Gregorian calendar.\nHe is a central character in the Mahabharata, the Bhagavata Purana, the Brahma Vaivarta Purana, and the Bhagavad Gita, and is mentioned in many Hindu philosophical, theological, and logical texts."
+        ]
+      },
+      {
+        "tag": "Mata Saraswati",
+        "patterns": [
+          "Do you know about Mata Saraswati?",
+          "Do you know about Saraswati?",
+          "Who is Mata Saraswati",
+          "Tell me about Mata Saraswati",
+          "About Mata Saraswati",
+          "Mata Saraswati",
+          "Saraswati",
+          "Who is Saraswati",
+          "Tell me about Saraswati",
+          "About Saraswati"
+        ],
+        "responses": [
+          "Saraswati is the Hindu goddess of knowledge, music, art, speech, wisdom, and learning.\nShe is one of the Tridevi, along with the goddesses Lakshmi and Parvati.\nShe has remained significant as a goddess from the Vedic period through the modern period of Hindu traditions.\nShe is generally shown to have four arms, holding a book, a rosary, a water pot, and a musical instrument called the veena.\nEach of these items have a symbolic meaning in Hinduism."
+        ]
+      },
+      {
+        "tag": "Graphic Era Hill University",
+        "patterns": [
+          "Do you know about Graphic Era Hill University?",
+          "Do you know about GEHU?",
+          "Tell me about Graphic Era Hill University",
+          "About Graphic Era Hill University",
+          "Graphic Era Hill University",
+          "Tell me about GEHU",
+          "About GEHU",
+          "GEHU"
+        ],
+        "responses": [
+          "Graphic Era Hill University (Founded in 2011, situated in Dehradun) is today widely known for its innovative and rigorous education which has nurtured professionals across industries and sectors in India and beyond.\nGEHU is on the cutting edge of using state-of-the art equipment and preparing students for globalized economy and at the same time promoting holistic learning, unbiased knowledge ,industry centric skills, ethics, a cosmopolitan outlook and accountability for actions.\nGEHU is making its presence at national and international platforms, through collaborations with premier universities of the world, study abroad programs and international internships and research.\nGraphic Era Hill University offers comprehensive curriculum over a large number of degree programs in engineering, law, management, computer applications, humanities, applied sciences, animation, fashion designing, journalism and mass communication, Agriculture.\nThese programs offer the students multiple academic pathways."
+        ]
+      }
+    ]
+  }
